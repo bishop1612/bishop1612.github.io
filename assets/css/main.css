@@ -17,6 +17,19 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	
+	video {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: 0; 
+		background: transparent;
+	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -3460,6 +3473,9 @@
 	}
 
 /* Page Wrapper */
+	/*#page-wrapper-back{
+		position:relative;
+	}*/
 
 	#page-wrapper {
 		display: -moz-flex;
@@ -3529,6 +3545,9 @@
 	}
 
 /* Wrapper */
+	#wrapper-back{
+		background: transparent;
+	}
 
 	#wrapper {
 		display: -moz-flex;
